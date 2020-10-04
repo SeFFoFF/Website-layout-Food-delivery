@@ -1,0 +1,552 @@
+/* Settings of project */
+body{
+    margin: 0;
+    font-family: 'Conv_Kayak';
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+input{
+    outline: none;
+}
+
+
+/* Header */
+.header{
+    width: 100%;
+    height: 875px;
+    background: url("../images/headerBG.png") center no-repeat;
+    background-size: cover;
+}
+
+.header__block{
+    width: 100%;
+    max-width: 510px;
+    height: 100%;
+    max-height: 370px;
+    padding-top: 240px;
+    padding-left: 180px;
+}
+
+.headerMainImg{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.headerImgBulb{
+    position: absolute;
+    left: 700px;
+    top: 430px;
+    z-index: 2;
+}
+
+.h2{
+    font-family: 'Kayak Sans Regular', sans-serif;
+    font-size: 40px;
+}
+
+.p{
+    font-family: 'Kayak Sans Regular', sans-serif;
+    font-size: 16px;
+}
+
+.greenText{
+    color: #5fb709;
+}
+
+.header p{
+    padding-bottom: 20px;
+}
+
+
+/* Buttons */
+.header__bigButton{
+    background-color: #5fb709;
+    border-radius: 15px;
+    width: 220px;
+    height: 70px;
+    padding: 18px 40px;
+}
+
+.header__bigButtonLink{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kayak Sans Bold', sans-serif;
+    font-size: 20px;
+}
+
+.header__smallButton{
+    background-color: #5fb709;
+    border-radius: 15px;
+    width: 115px;
+    height: 45px;
+    padding: 10px 25px;
+    position: relative;
+    top: 50px;
+    right: 175px;
+    float: right;
+    z-index: 1;
+}
+
+.header__smallButtonLink{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kayak Sans Bold', sans-serif;
+    font-size: 16px;
+}
+
+.section__findFood_bigButton{
+    background-color: #5fb709;
+    border-radius: 15px;
+    width: 200px;
+    height: 70px;
+    padding: 18px 50px;
+}
+
+.section__findFood_bigButtonLink{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kayak Sans Bold', sans-serif;
+    font-size: 20px;
+}
+
+
+/* Section Find Food*/
+.section__findFood{
+    position: relative;
+}
+
+.section__findFood_block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.section__mintImg{
+    z-index: 1;
+    position: absolute;
+    right: 410px;
+    top: -150px;
+}
+
+.section__burgerImg{
+    position: relative;
+    bottom: 40px;
+    padding-left: 235px;
+}
+
+.section__form{
+    width: 900px;
+    height: 250px;
+    padding-right: 360px;
+    padding-top: 50px;
+}
+
+.section__textAndButton{
+    display: flex;
+    width: 700px;
+}
+
+.section__inputText{
+    width: 380px;
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 46px;
+    border-radius: 15px;
+    padding-left: 30px;
+    font-family: 'Kayak Sans Regular', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Section Local Restaurants */
+.section__localRestaurants{
+    width: 100%;
+    height: 1400px;
+    background: url("../images/restaurantBG.png") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section__brokenEgg{
+    z-index: 1;
+    position: absolute;
+    top: 230px;
+    right: 90px;
+}
+
+.section__phone{
+    z-index: 1;
+    position: absolute;
+    top: 260px;
+    right: 490px;
+}
+
+.section__restaurant{
+    z-index: 1;
+    position: absolute;
+    top: 440px;
+    right: 567px;
+}
+
+.section__Cucumbers{
+    z-index: 1;
+    position: absolute;
+    bottom: 115px;
+    left: -90px;
+}
+
+.section__localRestaurantsWaves{
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    left: 340px;
+}
+
+.section__localRestaurants_block{
+    width: 695px;
+    height: 240px;
+    padding-left: 180px;
+    padding-top: 565px;
+}
+
+.section__findFood_bigButton{
+    margin-top: 45px;
+}
+
+
+/* Section Place Order */
+.section__placeOrder{
+    position: relative;
+}
+
+.section__placeOrderMushroom{
+    position: absolute;
+    z-index: 1;
+    right: 600px;
+    top: -130px;
+}
+
+.section__placeOrderImage1{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 200px;
+}
+
+.section__placeOrderImage2{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+}
+
+.section__placeOrder_block{
+    margin-left: 870px;
+    padding-top: 240px;
+    width: 500px;
+    height: 240px;
+}
+
+.section__placeOrderWaves{
+    position: absolute;
+    z-index: 2;
+    top: 550px;
+    left: 870px;
+}
+
+
+/* Section Track Your Food */
+.section__trackYourFood{
+    width: 100%;
+    height: 1400px;
+    background: url("../images/restaurantBG.png") center no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 335px;
+}
+
+.section__roadImage{
+    position: absolute;
+    z-index: 1;
+    top: 380px;
+    left: 0px;
+}
+
+.section__markerImage1{
+    position: absolute;
+    z-index: 2;
+    left: 290px;
+    bottom: 580px;
+}
+
+.section__markerImage2{
+    position: absolute;
+    z-index: 2;
+    left: 905px;
+    bottom: 555px;
+}
+
+.section__markerImage3{
+    position: absolute;
+    z-index: 2;
+    left: 1665px;
+    top: 450px;
+}
+
+.section__spiceImage{
+    position: absolute;
+    z-index: 2;
+    top: 220px;
+    left: 670px;
+}
+
+.section__phoneImage{
+    position: absolute;
+    z-index: 3;
+    right: 375px;
+    top: 280px;
+}
+
+.section__sandwitchesImage{
+    position: absolute;
+    z-index: 2;
+    left: 320px;
+    bottom: 340px;
+}
+
+.section__dumplingsImage{
+    position: absolute;
+    z-index: 2;
+    left: 575px;
+    bottom: 255px;
+}
+
+.section__trackYourFood_block{
+    width: 440px;
+    height: 130px;
+    margin-left: 180px;
+    padding-top: 575px;
+}
+
+
+/* Section Get the App */
+.section__getTheApp{
+    position: relative;
+    height: 795px;
+}
+
+.section__leafageImage{
+    position: absolute;
+    z-index: 1;
+    right: 140px;
+    top: -110px;
+}
+
+.section__getTheAppWavesImage{
+    position: absolute;
+    z-index: 1;
+    left: 790px;
+    top: 70px;
+}
+
+.section__spaghettiImage{
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    right: 610px;
+}
+
+.section__herbImage{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    bottom: 100px;
+}
+
+.section__vegetablesImage{
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+    top: 30px;
+}
+
+.section__googlePlayImage{
+    position: absolute;
+    z-index: 2;
+    top: 405px;
+    left: 875px;
+}
+
+.section_appStoreImage{
+    position: absolute;
+    z-index: 2;
+    top: 405px;
+    left: 1105px;
+}
+
+.sectopn__uberEatsImage{
+    position: absolute;
+    z-index: 2;
+    top: 205px;
+    left: 875px;
+}
+
+.section__getTheApp_block{
+    width: 375px;
+    height: 100px;
+    margin-left: 1025px;
+    padding-top: 205px;
+}
+
+
+/* Section Services */
+.section__services{
+    width: 100%;
+    background: url("../images/section__servicesBG.png") center no-repeat;
+    background-size: cover;
+    padding-top: 350px;
+}
+
+.servicesContainer{
+     width: 100%;
+     max-width: 1040px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 100px;
+}
+
+.section__services_bigButton{
+    background-color: #5fb709;
+    border-radius: 15px;
+    width: 220px;
+    height: 70px;
+    padding: 18px 58px;
+    margin-top: 30px;
+}
+
+.section__services_bigButtonLink{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kayak Sans Bold', sans-serif;
+    font-size: 20px;
+}
+
+.section__services p{
+    width: 400px;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #262626;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.footerContainer{
+    width: 100%;
+    max-width: 1570px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.footerContainer:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #3d3d3d;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+}
+
+.footer_select{
+    width: 205px;
+    height: 35px;
+    background-color: #262626;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kayak Sans Light', sans-serif;
+    font-size: 16px;
+}
+
+.footer__imagesBlock{
+    display: flex;
+    margin-top: 25px;
+}
+
+.footer__facebookImage{
+    width: 13px;
+    height: 24px;
+    margin-right: 30px;
+}
+
+.footer__facebookImage:hover{
+    background-color: #3b5998;
+}
+
+.footer__twitterImage{
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+}
+
+.footer__twitterImage:hover{
+    background-color: #00acee;
+}
+
+.footer__instagramImage{
+    width: 24px;
+    height: 24px;
+}
+
+.footer__instagramImage:hover{
+    background-color: #e1306c;
+}
+
+.footer__link{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Kayak Sans Light', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer__link:hover{
+    color: #5fb709;
+}
+
+.footer p{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.footer__googlePlayImage{
+    width: 125px;
+    height: 40px;
+}
+
+.footer__appStoreImage{
+    width: 125px;
+    height: 40px;
+}
